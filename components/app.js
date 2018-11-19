@@ -13,7 +13,7 @@ document.addEventListener('click', (e) => {
 
   if (targetEl.classList.contains('tab')) {
     const tabs = Array.from(document.querySelectorAll('.tab'));
-    tabs.forEach((tab) => {gir
+    tabs.forEach((tab) => {
       tab.className = 'tab';
     });
 
